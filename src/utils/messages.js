@@ -6,7 +6,7 @@ const generateMessage = (username,text) =>{
     }
 }
 
-const genrateLocationMessage = (username, url)=>{
+const generateLocationMessage = (username, url)=>{
    return{
     username,
     url,
@@ -16,5 +16,5 @@ const genrateLocationMessage = (username, url)=>{
 
 module.exports= {
     generateMessage,
-    genrateLocationMessage
+    generateLocationMessage
 }
